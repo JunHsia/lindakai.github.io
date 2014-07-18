@@ -6,12 +6,12 @@ keywords: CV-QKD, 安全距离
 ---
 
 #CV-QKD的安全距离
-@(技术类笔记本)[CV-QKD|安全距离]
+
 首先,影响**安全距离**的物理量有: 调制方差Va 、检测器效率η 、电噪声Vel、通信距离L以及信道衰减系数α，通常情况下α为0.2dB/Km。
 由于要考虑的是安全距离，那么就必然要考虑窃听者，若值考虑单独攻击(individual attack)和联合攻击(coherent attack)，由此，安全距离的定义为：在窃听者Eve的攻击下，发送者Alice和接受者Bob依然能够使安全密钥率R大于0 。
 密钥率通过Alice和Bob之间的互信息I(A:B)以及Eve所能窃听的信息I(B:E)来确定（此处假定系统为反向协商），即：
 
-<img src="http://www.forkosh.com/mathtex.cgi? \Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}">
+<img src="http://chart.googleapis.com/chart?cht=tx&chl= R=I(A:B)-I(B:E)" style="border:none;">
 
 $$ R=I(A:B)-I(B:E) $$
 	
