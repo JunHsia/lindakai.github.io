@@ -10,31 +10,31 @@ tags: CV-QKD
 密钥率通过Alice和Bob之间的互信息I(A:B)以及Eve所能窃听的信息I(B:E)来确定（此处假定系统为反向协商），即：
 
 
-![interpreter pattern](/public/upload/f1.png)
+![interpreter pattern](/public/upload/CV-QKD-Distance/f1.png)
 	
 关于individual attack和coherent attack 下Eve能够获取的互信息I(B:E)可以参考论文：“Improvement of continuous-variable quantum key distribution systems by using optical preamplifiers，S Fossier，EDiamanti，2009”
 现直接引用结论：
 Individual attack 下使用Homodyne检测器时的I(A:B)和I(B:E)分别为：
 
-![interpreter pattern](/public/upload/f2.png)
+![interpreter pattern](/public/upload/CV-QKD-Distance/f2.png)
 
-![interpreter pattern](/public/upload/f3.png)
+![interpreter pattern](/public/upload/CV-QKD-Distance/f3.png)
  
-其中![interpreter pattern](/public/upload/f4.png)
+其中![interpreter pattern](/public/upload/CV-QKD-Distance/f4.png)
 
 公式中的其它参数为：
 T表示信道传输系数（信道透过率），给定T和Vel后可以得知Bob端检测器的输入噪声方差为（1+T*Vel）*N0，N0为信道的shot noise，可看成一个单位（调制方差Va的单位也是N0）。
 进一步可以计算信道总的加性噪声为
 
-![interpreter pattern](/public/upload/1405177070912.png)
+![interpreter pattern](/public/upload/CV-QKD-Distance/1405177070912.png)
 
 当然，系统中除了信道的噪声外还有检测器噪声（这里只分析Homodyne检测器）：
 
-![interpreter pattern](/public/upload/1405177076102.png)
+![interpreter pattern](/public/upload/CV-QKD-Distance/1405177076102.png)
 
 那么总噪声为：
 
-![interpreter pattern](/public/upload/1405177085654.png)
+![interpreter pattern](/public/upload/CV-QKD-Distance/1405177085654.png)
 	 
 公式中的V=Va+1，Va为Alice的调制方差
 
