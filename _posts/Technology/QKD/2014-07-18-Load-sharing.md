@@ -2,7 +2,7 @@
 layout: post
 title:  "共享负载--高频大信号放大解决方案"
 category: 技术
-tags: CV-QKD
+tags: CV-QKD OP-Amp
 ---
 #高频大信号放大解决方案：共享负载
 ###一、什么是“大信号”
